@@ -29,6 +29,7 @@
 <text x="25" y="430" fill="#8b949e" xml:space="preserve">∞≈≠≈≠≈≈≈≈∞∞√∞∞∞∞∞≈≈≈≈≈≈≠≠≠==≠≠≠≠≠≠=÷÷===</text>
 <text x="25" y="445" fill="#8b949e" xml:space="preserve">√≈≈∞≈≈∞∞∞≈∞∞√√√∞∞∞∞∞∞∞∞≈≈≈≈≈≈≈≠≠≠≠≠≠≠≠≠≠</text>
 <text x="25" y="460" fill="#8b949e" xml:space="preserve">√≈≈∞√∞∞∞√∞≈∞√√√√∞∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠≠≠≠</text>
+<<<<<<< HEAD
 <text x="390" y="45" xml:space="preserve"><tspan fill="#58a6ff">dima-engineer@github </tspan><tspan fill="#484f58">────────────────────────────────────────────</tspan></text>
 <text x="390" y="87" xml:space="preserve"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">................................... </tspan><tspan fill="#c9d1d9">Ubuntu, Cachy OS, Windows</tspan></text>
 <text x="390" y="108" xml:space="preserve"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">............................ </tspan><tspan fill="#c9d1d9">25 years, 10 months, 19 days</tspan></text>
@@ -45,4 +46,22 @@
 <text x="390" y="402" xml:space="preserve"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">... </tspan><tspan fill="#c9d1d9">11 {Contributed: 0}</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.............. </tspan><tspan fill="#c9d1d9">7</tspan></text>
 <text x="390" y="423" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">................. </tspan><tspan fill="#c9d1d9">157</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">1</tspan></text>
 <text x="390" y="444" xml:space="preserve"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">6,182</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">14,389++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">8,207--</tspan><tspan fill="#484f58"> )</tspan></text>
+=======
+<text x="390" y="45" xml:space="preserve"><tspan fill="#58a6ff">dima-engineer@github </tspan><tspan fill="#484f58">─────────────────────────────</tspan></text>
+<text x="390" y="87" xml:space="preserve"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">.................... </tspan><tspan fill="#c9d1d9">Ubuntu, Cachy OS, Windows</tspan></text>
+<text x="390" y="108" xml:space="preserve"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">............. </tspan><tspan fill="#c9d1d9">25 years, 10 months, 19 days</tspan></text>
+<text x="390" y="129" xml:space="preserve"><tspan fill="#ffa657">Host: </tspan><tspan fill="#484f58">................................ </tspan><tspan fill="#c9d1d9">ditrich.dev</tspan></text>
+<text x="390" y="150" xml:space="preserve"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">Software Architect</tspan></text>
+<text x="390" y="171" xml:space="preserve"><tspan fill="#ffa657">IDE: </tspan><tspan fill="#484f58">........................... </tspan><tspan fill="#c9d1d9">NVIM, Claude Code</tspan></text>
+<text x="390" y="213" xml:space="preserve"><tspan fill="#ffa657">Languages.Programming: </tspan><tspan fill="#484f58">. </tspan><tspan fill="#c9d1d9">Python, Go, TypeScript, C</tspan></text>
+<text x="390" y="234" xml:space="preserve"><tspan fill="#ffa657">Languages.Real: </tspan><tspan fill="#484f58">......... </tspan><tspan fill="#c9d1d9">English, Russian, Polish</tspan></text>
+<text x="390" y="255" xml:space="preserve"><tspan fill="#ffa657">Hobbies: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">Drones, DIY electronics, Drums</tspan></text>
+<text x="390" y="297" xml:space="preserve"><tspan fill="#58a6ff">─ Contact </tspan><tspan fill="#484f58">────────────────────────────────────────</tspan></text>
+<text x="390" y="318" xml:space="preserve"><tspan fill="#ffa657">Email: </tspan><tspan fill="#484f58">............................ </tspan><tspan fill="#c9d1d9">me@ditrich.dev</tspan></text>
+<text x="390" y="339" xml:space="preserve"><tspan fill="#ffa657">LinkedIn: </tspan><tspan fill="#484f58">............ </tspan><tspan fill="#c9d1d9">in/dmitry-marchuk-202944186</tspan></text>
+<text x="390" y="381" xml:space="preserve"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">───────────────────────────────────</tspan></text>
+<text x="390" y="402" xml:space="preserve"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">.. </tspan><tspan fill="#c9d1d9">37 {Contributed: 10}</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">7</tspan></text>
+<text x="390" y="423" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">............... </tspan><tspan fill="#c9d1d9">1,479</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">.... </tspan><tspan fill="#c9d1d9">1</tspan></text>
+<text x="390" y="444" xml:space="preserve"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">1,978,215</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">2,062,785++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">84,570--</tspan><tspan fill="#484f58"> )</tspan></text>
+>>>>>>> 50c8b66 (Adjust script)
 </svg>

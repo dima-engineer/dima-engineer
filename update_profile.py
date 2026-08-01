@@ -13,7 +13,7 @@ from datetime import date, datetime, timezone
 USER = "dima-engineer"
 BIRTHDAY = date(2000, 9, 13)
 JOINED_YEAR = 2018  # account creation year, never changes
-W = 65  # info column width in characters
+W = 50  # info column width in characters
 
 ART = r"""
                  ÷××÷÷÷≠                
@@ -199,7 +199,7 @@ def kv(key, val, width=W):
 
 def kv2(k1, v1, k2, v2):
     left = kv(k1, v1, 30)
-    return left + [(" | ", "d")] + kv(k2, v2, 23)
+    return left + [(" | ", "d")] + kv(k2, v2, 17)
 
 
 def rule(title=""):
@@ -216,11 +216,11 @@ def info_lines(s):
         kv("OS", "Ubuntu, Cachy OS, Windows"),
         kv("Uptime", f"{y} years, {m} months, {d} days"),
         kv("Host", "ditrich.dev"),
-        kv("Kernel", "Software Engineer"),
+        kv("Kernel", "Software Architect"),
         kv("IDE", "NVIM, Claude Code"),
         [],
         kv("Languages.Programming", "Python, Go, TypeScript, C"),
-        kv("Languages.Real", "English, Belarussian, Russian, Polish"),
+        kv("Languages.Real", "English, Russian, Polish"),
         kv("Hobbies", "Drones, DIY electronics, Drums"),
         [],
         rule("Contact"),
