@@ -13,7 +13,7 @@ from datetime import date, datetime, timezone
 USER = "dima-engineer"
 BIRTHDAY = date(2000, 9, 13)
 JOINED_YEAR = 2018  # account creation year, never changes
-W = 56  # info column width in characters
+W = 50  # info column width in characters
 
 ART = r"""
                                                             
@@ -279,7 +279,7 @@ def selfcheck():
     assert age(date(1989, 1, 15), date(2026, 7, 10)) == (37, 5, 25)
     assert age(date(2000, 3, 31), date(2026, 4, 1)) == (26, 0, 1)
     assert age(date(2000, 1, 1), date(2026, 1, 1)) == (26, 0, 0)
-    assert len("".join(t for t, _ in kv("OS", "Windows, macOS"))) == W
+    assert len("".join(t for t, _ in kv("OS", "Ubuntu, Cachy OS, Windows"))) == W
 
 
 if __name__ == "__main__":
