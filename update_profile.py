@@ -8,11 +8,10 @@ import html
 import json
 import os
 import urllib.request
-from datetime import date, datetime, timezone
+from datetime import date
 
 USER = "dima-engineer"
 BIRTHDAY = date(2000, 9, 13)
-JOINED_YEAR = 2018  # account creation year, never changes
 W = 50  # info column width in characters
 
 ART = r"""
@@ -87,16 +86,11 @@ def age(b, t):
 
 
 def fetch_stats():
-    yr_aliases = "\n".join(
-        f'y{y}: contributionsCollection(from: "{y}-01-01T00:00:00Z", to: "{y + 1}-01-01T00:00:00Z")'
-        " { totalCommitContributions restrictedContributionsCount }"
-        for y in range(JOINED_YEAR, datetime.now(timezone.utc).year + 1)
-    )
-    contrib = graphql(f'query {{ user(login: "{USER}") {{ {yr_aliases} }} }}')["user"]
-    commits = sum(
-        v["totalCommitContributions"] + v["restrictedContributionsCount"]
-        for v in contrib.values()
-    )
+    # contributionsCollection undercounts (excludes commits with unverified
+    # author email, non-default branches, unmerged fork commits); search API
+    # counts every indexed commit by this author instead
+    _, search = gh(f"https://api.github.com/search/commits?q=author:{USER}", token=PRIV_TOKEN)
+    commits = search["total_count"]
     u = graphql(
         f"""
     query {{
