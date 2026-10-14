@@ -207,7 +207,7 @@ def info_lines(s):
     return [
         [(f"{USER.lower()}@github ", "h"), ("─" * (W - len(USER) - 8), "d")],
         [],
-        kv("OS", "Ubuntu, Cachy OS, Windows"),
+        kv("OS", "Omarchy, Windows"),
         kv("Uptime", f"{y} years, {m} months, {d} days"),
         kv("Host", "ditrich.dev"),
         kv("Kernel", "Software Architect"),
